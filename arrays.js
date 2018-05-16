@@ -3,3 +3,4 @@ function destructivelyAddElementToBeginningOfArray(array, element){array.unshift
 function addElementToBeginningOfArray(array,element){var newArray=[`${element}`,...array];return newArray}
 
 function addElementToEndOfArray(array,element){var NewArray=[...array,`${element}`];return(NewArray)}
+function destructivelyAddElementToEndOfArray(array,element){array.push(`${element}`);return(array)}
